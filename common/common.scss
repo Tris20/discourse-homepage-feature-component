@@ -90,8 +90,8 @@ html.homepage-featured-topics {
       }
       h3 {
         margin: 0;
-        padding: 1em 0 1.5em;
-        font-size: $font-up-2;
+        padding: 0 0 1.5em;
+        font-size: $font-up-1;
         a {
           display: -webkit-box;
           overflow: hidden;
@@ -101,7 +101,7 @@ html.homepage-featured-topics {
           -webkit-box-orient: vertical;
         }
         @media screen and (max-width: 450px) {
-          padding: 1em 0 1em;
+          padding: 0 0 1em;
         }
       }
       .featured-topic-image {
