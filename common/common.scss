@@ -5,7 +5,7 @@ html.homepage-featured-topics {
 }
 
 .featured-topic-wrapper {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   text-align: center;
   border-bottom: 1px solid $primary-low;
   position: relative;
@@ -14,7 +14,7 @@ html.homepage-featured-topics {
     position: absolute;
     left: 0;
     right: 0;
-    top: 80px;
+    top: 20px;
     @media screen and (max-width: 450px) {
       top: 20px;
     }
@@ -26,7 +26,7 @@ html.homepage-featured-topics {
   }
   h2 {
     border-bottom: 1px solid $primary-low;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.3em;
     margin-bottom: 1.5em;
   }
   .featured-topics {
