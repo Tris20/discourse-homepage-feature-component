@@ -90,8 +90,8 @@ html.homepage-featured-topics {
       }
       h3 {
         margin: 0;
-        padding: 0em 0 1.5em;
-        font-size: $font-up-1;
+        padding: 0em 0 1em;
+        /*font-size: $font-up-1;*/
         a {
           display: -webkit-box;
           overflow: hidden;
@@ -112,8 +112,8 @@ html.homepage-featured-topics {
         background-position: center center;
         a {
           display: block;
-          width: 100%;
-          height: 10%;
+          width: 0%;
+          height: 0%;
         }
       }
     }
