@@ -1,11 +1,11 @@
 html.homepage-featured-topics {
   #banner {
-    margin-bottom: 0em;
+    margin-bottom: 1.5em;
   }
 }
 
 .featured-topic-wrapper {
-  margin-bottom: 0.5em;
+  margin-bottom: 3em;
   text-align: center;
   border-bottom: 1px solid $primary-low;
   position: relative;
@@ -14,20 +14,20 @@ html.homepage-featured-topics {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 80px;
     @media screen and (max-width: 450px) {
-      top: 0;
+      top: 70px;
     }
     margin-left: auto;
     margin-right: auto;
   }
   @media screen and (max-width: 450px) {
-    margin-top: 0em;
+    margin-top: 1em;
   }
   h2 {
     border-bottom: 1px solid $primary-low;
-    padding-bottom: 0.3em;
-    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
   }
   .featured-topics {
     display: flex;
@@ -90,9 +90,8 @@ html.homepage-featured-topics {
       }
       h3 {
         margin: 0;
-        padding: 0em 0 1em;
-        font-size: $font-up-1;
-        /**font-size: $font-0;**/
+        padding: 1em 0 1.5em;
+        font-size: $font-up-2;
         a {
           display: -webkit-box;
           overflow: hidden;
@@ -102,19 +101,19 @@ html.homepage-featured-topics {
           -webkit-box-orient: vertical;
         }
         @media screen and (max-width: 450px) {
-          padding: 0em 0 1em;
+          padding: 1em 0 1em;
         }
       }
       .featured-topic-image {
-        height: 0px;
-        max-width: 0px;
-        width: 0%;
+        height: 200px;
+        max-width: 450px;
+        width: 100%;
         background-size: cover;
         background-position: center center;
         a {
           display: block;
-          width: 0%;
-          height: 0%;
+          width: 100%;
+          height: 100%;
         }
       }
     }
